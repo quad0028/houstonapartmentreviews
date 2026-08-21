@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en" data-preset="modern" data-base="light" data-hero="full-bleed" data-header="solid" data-cards="registry" style="--lp-primary-50:255 245 245;--lp-primary-100:255 232 232;--lp-primary-200:255 205 205;--lp-primary-300:252 168 170;--lp-primary-400:243 116 125;--lp-primary-500:225 29 72;--lp-primary-600:192 21 59;--lp-primary-700:149 9 43;--lp-primary-800:135 6 38;--lp-primary-900:110 1 28;--lp-secondary-50:250 243 244;--lp-secondary-100:243 227 229;--lp-secondary-200:229 195 199;--lp-secondary-300:208 152 159;--lp-secondary-400:177 96 110;--lp-secondary-500:136 19 55;--lp-secondary-600:119 18 48;--lp-secondary-700:96 16 39;--lp-secondary-800:89 16 36;--lp-secondary-900:76 14 30;--lp-neutral-50:248 247 247;--lp-neutral-100:238 237 236;--lp-neutral-200:218 216 215;--lp-neutral-300:192 189 186;--lp-neutral-400:159 153 150;--lp-neutral-500:120 113 108;--lp-neutral-600:102 96 91;--lp-neutral-700:78 73 70;--lp-neutral-800:70 66 63;--lp-neutral-900:56 53 50;--lp-accent-50:255 250 245;--lp-accent-100:255 244 232;--lp-accent-200:254 231 205;--lp-accent-300:253 213 168;--lp-accent-400:250 189 115;--lp-accent-500:245 158 11;--lp-accent-600:205 130 0;--lp-accent-700:153 94 0;--lp-accent-800:137 82 0;--lp-accent-900:107 61 0;--lp-surface:253 247 248;--lp-surface-alt:249 238 241;--lp-surface-container:255 255 255;--lp-surface-container-high:241 245 249;--lp-on-surface:15 23 42;--lp-on-surface-variant:95 110 134;--lp-outline:226 232 240;--lp-outline-variant:241 245 249;--lp-accent:245 158 11;--lp-on-accent:0 0 0;--lp-brand:#e11d48;--lp-accent:#f59e0b;--lp-font:'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;--lp-font-heading:'Fraunces', Georgia, serif;--lp-heading-weight:700;--lp-heading-tracking:-0.01em;--lp-text-display-desktop:48px;--lp-text-display-mobile:34px;--lp-text-display-tracking:-0.01em;--lp-text-h1-desktop:40px;--lp-text-h1-mobile:30px;--lp-text-h1-tracking:-0.01em;--lp-text-h2-desktop:28px;--lp-text-h2-mobile:23px;--lp-text-h2-tracking:0em;--lp-text-h3-desktop:22px;--lp-text-h3-mobile:19px;--lp-text-h3-tracking:0em;--lp-radius-sm:0.375rem;--lp-radius-md:0.625rem;--lp-radius-lg:0.875rem;--lp-radius-xl:1.25rem;--lp-radius-card:14px;--lp-radius-btn:10px;--lp-radius-chip:0.5rem;--lp-shadow-card:0 1px 3px rgb(15 23 42 / 0.08), 0 1px 2px rgb(15 23 42 / 0.04);--lp-shadow-hover:0 10px 28px rgb(15 23 42 / 0.12);--lp-card-border:1px solid transparent;--lp-ghost-border:1px solid transparent;--lp-ghost-bg:rgb(var(--lp-surface-alt));--lp-ghost-bg-hover:rgb(var(--lp-surface-container-high));--lp-link-decoration:none;--lp-link-underline-color:transparent;--lp-signature:none;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Your Free Houston Apartment List | Houston Apartment Reviews</title>
+<meta name="description" content="Tell us your budget, area, and situation and licensed Houston locators will send you a free shortlist of communities worth touring — with this week's pricing and move-in specials.">
+<link rel="canonical" href="https://help.houstonapartmentreviews.com/">
+<link rel="icon" href="/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+<style>body{font-family:var(--lp-font)}</style>
+<style>
+/* form-card utilities the compiled site CSS does not include */
+.bg-action-orange { background-color: #e11d48; }
+.text-navy-deep { color: #111827; }
+.bg-gray-50 { background-color: #f9fafb; }
+.bg-gray-200 { background-color: #e5e7eb; }
+.border-gray-100 { border-color: #f3f4f6; }
+.border-gray-200 { border-color: #e5e7eb; }
+.border-gray-300 { border-color: #d1d5db; }
+.text-gray-300 { color: #d1d5db; }
+.text-gray-400 { color: #9ca3af; }
+.text-gray-500 { color: #6b7280; }
+.text-gray-700 { color: #374151; }
+.text-gray-900 { color: #111827; }
+.h-3\.5 { height: .875rem; }
+.w-3\.5 { width: .875rem; }
+.h-px { height: 1px; }
+.min-h-\[1\.25rem\] { min-height: 1.25rem; }
+.text-\[10px\] { font-size: 10px; }
+.text-\[11px\] { font-size: 11px; }
+.shadow-md { box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1); }
+.hover\:shadow-lg:hover { box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1); }
+.transition-shadow { transition: box-shadow .15s; }
+.outline-none { outline: none; }
+.disabled\:opacity-40:disabled { opacity: .4; }
+.disabled\:cursor-not-allowed:disabled { cursor: not-allowed; }
+.focus\:border-action-orange:focus { border-color: #e11d48; }
+.focus\:ring-1:focus { box-shadow: 0 0 0 3px rgb(225 29 72 / .18); }
+.focus\:ring-action-orange:focus { outline: none; }
+.hou-card input, .hou-card select { font-family: var(--lp-font); background: #fff; }
+.hou-card input[type="checkbox"] { accent-color: #e11d48; }
+
+/* page chrome */
+.serif { font-family: var(--lp-font-heading); font-weight: var(--lp-heading-weight, 700);
+  letter-spacing: -0.01em; }
+.hero-rose { background: linear-gradient(180deg, rgb(var(--lp-primary-50)) 0%, rgb(var(--lp-surface)) 100%); }
+.hou-card { background: #fff; border-radius: 1rem; border: 1px solid rgb(var(--lp-outline));
+  box-shadow: 0 18px 50px rgb(140 30 60 / .12); overflow: hidden; }
+.statband { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.25rem 2.75rem; }
+.statband .num { font-family: var(--lp-font-heading); font-size: 1.8rem; color: rgb(var(--lp-primary-600)); }
+.statband .lbl { font-size: 12.5px; color: rgb(var(--lp-on-surface-variant)); margin-top: 1px; }
+.ed-num { font-family: var(--lp-font-heading); font-size: 2.4rem; line-height: 1;
+  color: rgb(var(--lp-primary-300)); flex-shrink: 0; width: 3.2rem; }
+.rose-btn { display: inline-block; background: #e11d48; color: #fff; font-weight: 700;
+  border-radius: var(--lp-radius-btn, 10px); text-decoration: none;
+  box-shadow: 0 4px 14px rgb(225 29 72 / .3); }
+.rose-btn:hover { background: #be123c; }
+/* layout utilities missing from the compiled site CSS */
+.pt-5 { padding-top: 1.25rem; }
+.pb-5 { padding-bottom: 1.25rem; }
+.pb-10 { padding-bottom: 2.5rem; }
+.pb-12 { padding-bottom: 3rem; }
+.py-3\.5 { padding-top: .875rem; padding-bottom: .875rem; }
+.space-y-6 > * + * { margin-top: 1.5rem; }
+.gap-x-3 { column-gap: .75rem; }
+.gap-y-1 { row-gap: .25rem; }
+.text-\[13px\] { font-size: 13px; }
+.text-\[15px\] { font-size: 15px; }
+.text-\[26px\] { font-size: 26px; }
+.leading-\[1\.18\] { line-height: 1.18; }
+.space-y-8 > * + * { margin-top: 2rem; }
+.space-y-5 > * + * { margin-top: 1.25rem; }
+@media (min-width: 640px) {
+  .sm\:pt-9 { padding-top: 2.25rem; }
+  .sm\:text-\[38px\] { font-size: 38px; }
+  .sm\:text-base { font-size: 16px; line-height: 1.5rem; }
+}
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+</style>
+</head>
+<body class="min-h-screen flex flex-col">
+<header class="lp-site-header sticky top-0 z-50 border-b border-outline bg-surface-container/95 backdrop-blur transition-colors duration-300"> <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-4 py-3"> <a href="https://houstonapartmentreviews.com/" class="flex shrink-0 items-center gap-2"> <img src="/images/logo.png" alt="Houston Apartment Reviews Directory" class="h-12 w-auto">  </a> <!-- Desktop nav. Kept intentionally lean (4-5 items): no Home (the logo covers it), tools fold
+         into the guides dropdown, and About/Methodology live in the footer only. --> <nav class="hidden items-center gap-6 md:flex" aria-label="Primary"> <!-- Browse --> <div class="relative group"> <button type="button" class="inline-flex items-center gap-1 border-b-2 pb-0.5 text-sm transition-colors border-transparent text-on-surface-variant hover:text-primary-600" aria-haspopup="true">Reviews <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button> <div class="lp-menu invisible absolute left-0 top-full z-30 min-w-[16rem] p-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"> <a href="https://houstonapartmentreviews.com/browse/" class="flex items-center justify-between rounded-btn px-3 py-2 text-sm font-semibold text-primary-600 hover:bg-primary-50">Search &amp; map <span aria-hidden="true">&rarr;</span></a> <div class="my-1 border-t border-outline-variant"></div>  <a href="https://houstonapartmentreviews.com/browse/?category=luxury-high-rise" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Luxury &amp; High-Rise Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=student-housing" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Student Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=senior-55plus" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Senior &amp; 55+ Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=affordable-housing" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Affordable &amp; Income-Based Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=furnished-corporate" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Furnished &amp; Corporate Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=pet-friendly" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Pet-Friendly Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=townhome-style" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Townhome &amp; Garden-Style Apartments</a> </div> </div> <!-- Cities (real city hubs; shown alongside Areas in the mixed case) --> <div class="relative group"> <button type="button" class="inline-flex items-center gap-1 border-b-2 pb-0.5 text-sm transition-colors border-transparent text-on-surface-variant hover:text-primary-600" aria-haspopup="true">Popular <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button> <div class="lp-menu invisible absolute left-0 top-full z-30 min-w-[16rem] p-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"> <a href="https://houstonapartmentreviews.com/houston-tx/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Houston, TX</a><a href="https://houstonapartmentreviews.com/katy/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Katy</a><a href="https://houstonapartmentreviews.com/the-woodlands/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">The Woodlands</a><a href="https://houstonapartmentreviews.com/sugar-land/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Sugar Land</a> </div> </div> <!-- Areas (region's own neighborhoods) -->  <!-- Best --> <div class="relative group"> <button type="button" class="inline-flex items-center gap-1 border-b-2 pb-0.5 text-sm transition-colors border-transparent text-on-surface-variant hover:text-primary-600" aria-haspopup="true">Best Of <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button> <div class="lp-menu invisible absolute left-0 top-full z-30 min-w-[16rem] p-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"> <a href="https://houstonapartmentreviews.com/houston-tx/best/apartments/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Best Apartments in Houston</a><a href="https://houstonapartmentreviews.com/katy/best/apartments/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Best Apartments in Katy</a><a href="https://houstonapartmentreviews.com/sugar-land/best/apartments/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Best Apartments in Sugar Land</a><a href="https://houstonapartmentreviews.com/the-woodlands/best/apartments/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Best Apartments in The Woodlands</a>  </div> </div> <!-- Content sections: ONE dropdown of section INDEX links (Guides / Tools / Resources / Glossary),
+           never the individual guide/tool titles. Parent label varied per site (navLabel('sections')). --> <div class="relative group"> <button type="button" class="inline-flex items-center gap-1 border-b-2 pb-0.5 text-sm transition-colors border-transparent text-on-surface-variant hover:text-primary-600" aria-haspopup="true">Guides <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button> <div class="lp-menu invisible absolute left-0 top-full z-30 min-w-[16rem] p-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"> <a href="https://houstonapartmentreviews.com/guide/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Tips</a><a href="https://houstonapartmentreviews.com/tools/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Free Tools</a><a href="https://houstonapartmentreviews.com/resources/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Resources</a><a href="https://houstonapartmentreviews.com/glossary/" class="block rounded-btn px-3 py-2 text-sm text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Dictionary</a> </div> </div> <a href="https://houstonapartmentreviews.com/compare/" class="inline-flex items-center gap-1 border-b-2 pb-0.5 text-sm transition-colors border-transparent text-on-surface-variant hover:text-primary-600">Compare</a> <form action="https://houstonapartmentreviews.com/browse/" method="get" role="search" class="relative ml-1"> <label class="sr-only" for="lp-nav-search">Search businesses</label> <input id="lp-nav-search" type="search" name="q" placeholder="Search…" class="lp-input w-44 py-2 pl-4 pr-9 text-sm"> <svg class="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-on-surface-variant" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.8"></circle><path d="m14 14 3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg> </form> <div class="ml-1 flex items-center gap-2"> <a href="tel:713-405-3410" aria-label="Call" class="flex h-9 w-9 items-center justify-center rounded-full text-on-surface-variant transition-colors hover:bg-surface-alt hover:text-primary-600"> <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"></path></svg> </a>  <a href="#get-list" class="lp-accent-bg text-on-accent whitespace-nowrap rounded-btn px-3.5 py-2 text-sm font-semibold">Find Your Houston Apartment</a> </div> </nav> <!-- Mobile menu: full-screen sheet. <details> keeps it working with no JS; the burger swaps to
+         an X via CSS on [open]. The panel is ABSOLUTE (top-full), not fixed: the header's
+         backdrop-blur creates a containing block for fixed descendants, so position:fixed would
+         resolve against the header box, not the viewport. Anchoring to the header (itself
+         fixed/sticky at top-0) gives the same full-screen result reliably. --> <details class="lp-mnav md:hidden"> <summary class="lp-btn-ghost flex cursor-pointer list-none p-2 text-on-surface-variant" aria-label="Menu"> <svg class="lp-mnav-burger h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg> <svg class="lp-mnav-close hidden h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg> <span class="sr-only">Menu</span> </summary> <div class="lp-mnav-panel absolute inset-x-0 top-full z-40 overflow-y-auto overscroll-contain border-t border-outline bg-surface-container"> <div class="mx-auto max-w-6xl px-4 pb-8 pt-4"> <form action="https://houstonapartmentreviews.com/browse/" method="get" role="search" class="relative mb-2"> <label class="sr-only" for="lp-mnav-search">Search businesses</label> <input id="lp-mnav-search" type="search" name="q" placeholder="Search businesses…" class="lp-input w-full py-3 pl-4 pr-11 text-base"> <svg class="pointer-events-none absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 text-on-surface-variant" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.8"></circle><path d="m14 14 3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg> </form> <div class="mb-3 flex gap-2"> <a href="#get-list" class="lp-accent-bg text-on-accent flex-1 rounded-btn px-4 py-3 text-center text-base font-semibold">Find Your Houston Apartment</a> <a href="tel:713-405-3410" class="flex items-center justify-center rounded-btn border border-outline px-4 py-3 text-base font-medium text-on-surface">Call</a> </div> <nav class="divide-y divide-outline-variant" aria-label="Mobile"> <a href="https://houstonapartmentreviews.com/" class="flex items-center px-1 py-3 text-base font-medium text-on-surface">Home</a> <a href="https://houstonapartmentreviews.com/browse/" class="flex items-center px-1 py-3 text-base font-medium text-on-surface">Browse &amp; map</a> <details class="lp-mnav-group"> <summary class="flex cursor-pointer list-none items-center justify-between px-1 py-3 text-base font-medium text-on-surface">Reviews <svg class="lp-mnav-chev h-4 w-4 shrink-0 text-on-surface-variant transition-transform duration-150" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary> <div class="pb-3">  <a href="https://houstonapartmentreviews.com/browse/?category=luxury-high-rise" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Luxury &amp; High-Rise Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=student-housing" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Student Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=senior-55plus" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Senior &amp; 55+ Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=affordable-housing" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Affordable &amp; Income-Based Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=furnished-corporate" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Furnished &amp; Corporate Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=pet-friendly" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Pet-Friendly Apartments</a><a href="https://houstonapartmentreviews.com/browse/?category=townhome-style" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Townhome &amp; Garden-Style Apartments</a> </div> </details> <details class="lp-mnav-group"> <summary class="flex cursor-pointer list-none items-center justify-between px-1 py-3 text-base font-medium text-on-surface">Popular <svg class="lp-mnav-chev h-4 w-4 shrink-0 text-on-surface-variant transition-transform duration-150" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary> <div class="pb-3"> <a href="https://houstonapartmentreviews.com/houston-tx/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Houston, TX</a><a href="https://houstonapartmentreviews.com/katy/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Katy</a><a href="https://houstonapartmentreviews.com/the-woodlands/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">The Woodlands</a><a href="https://houstonapartmentreviews.com/sugar-land/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Sugar Land</a> </div> </details>   <details class="lp-mnav-group"> <summary class="flex cursor-pointer list-none items-center justify-between px-1 py-3 text-base font-medium text-on-surface">Guides <svg class="lp-mnav-chev h-4 w-4 shrink-0 text-on-surface-variant transition-transform duration-150" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary> <div class="pb-3"> <a href="https://houstonapartmentreviews.com/guide/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Tips</a><a href="https://houstonapartmentreviews.com/tools/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Free Tools</a><a href="https://houstonapartmentreviews.com/resources/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Resources</a><a href="https://houstonapartmentreviews.com/glossary/" class="block rounded-btn px-3 py-2.5 text-[15px] text-on-surface-variant hover:bg-surface-alt hover:text-primary-700">Dictionary</a> </div> </details> <a href="https://houstonapartmentreviews.com/compare/" class="flex items-center px-1 py-3 text-base font-medium text-on-surface">Compare</a> </nav> </div> </div> </details> </div> </header>
+<script>
+  (function () {
+    var h = document.querySelector('header.lp-site-header');
+    if (!h) return;
+    var setH = function () { document.documentElement.style.setProperty('--lp-header-h', h.offsetHeight + 'px'); };
+    setH();
+    window.addEventListener('resize', setH, { passive: true });
+    var overlay = h.classList.contains('lp-header-overlay');
+    var atTop = function () { h.classList.toggle('lp-at-top', window.scrollY < 60); };
+    var m = h.querySelector('.lp-mnav');
+    if (m) {
+      m.addEventListener('toggle', function () {
+        // Lock page scroll behind the sheet; over a photo hero, solidify the transparent header so
+        // the nav row reads against the sheet, not the hero. atTop() restores it on close.
+        document.documentElement.classList.toggle('lp-mnav-open', m.open);
+        if (!overlay) return;
+        if (m.open) h.classList.remove('lp-at-top'); else atTop();
+      });
+    }
+    if (!overlay) return;
+    atTop();
+    window.addEventListener('scroll', atTop, { passive: true });
+  })();
+</script>
+<main class="flex-1">
+
+<section class="hero-rose border-b border-outline" id="get-list">
+  <div class="mx-auto max-w-3xl px-4 pt-5 pb-12 text-center sm:pt-9">
+    <h1 class="serif text-[26px] leading-[1.18] text-on-surface sm:text-[38px]">
+      Houston's a big place.<br>Your shortlist shouldn't be.</h1>
+    <p class="mx-auto mt-2 max-w-xl text-[15px] text-on-surface-variant sm:text-base">
+      Tell us your budget, area, and situation. We'll send back the handful of communities
+      actually worth touring &mdash; with this week's pricing and specials. Free.</p>
+    <p class="mt-2.5 mb-5 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-[13px] font-medium text-on-surface">
+      <span class="inline-flex items-center gap-1"><svg width="14" height="14" style="flex-shrink:0;color:#e11d48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>$0 cost</span>
+      <span class="inline-flex items-center gap-1"><svg width="14" height="14" style="flex-shrink:0;color:#e11d48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No credit check to ask</span>
+      <span class="inline-flex items-center gap-1"><svg width="14" height="14" style="flex-shrink:0;color:#e11d48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>About 2 minutes</span>
+    </p>
+    <div class="hou-card mx-auto max-w-md text-left"><div class="h-1 bg-action-orange"></div><div class="p-6 pb-5">
+<form method="POST" action="https://n8n.dentals.targetdial.co/webhook/NewWeb1" id="step-form" novalidate>
+<input type="hidden" name="referredBy" value="Referred by SPIRIT REAL ESTATE">
+<input type="hidden" name="city" value="Houston">
+<input type="hidden" name="formId" value="1">
+<input type="hidden" name="formTitle" value="Find Your Second Chance Apartment in Houston">
+<input type="hidden" name="sourceUrl" value="">
+
+<!-- Move date -->
+<div class="mb-3">
+<label for="when-do-you-need-to-move-in" class="block text-[11px] text-gray-500 mb-1">When do you need to move in?</label>
+<input id="when-do-you-need-to-move-in" type="date" name="moveDate" required aria-label="Move-in date" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange focus:ring-1 focus:ring-action-orange outline-none">
+</div>
+
+<!-- Bedrooms + Budget row -->
+<div class="grid grid-cols-2 gap-2 mb-3">
+<select name="bedrooms" required aria-label="Number of bedrooms" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Bedrooms...</option>
+<option value="Studio">Studio</option>
+<option value="1bd / 1ba">1bd / 1ba</option>
+<option value="2bd / 1ba">2bd / 1ba</option>
+<option value="2bd / 2ba">2bd / 2ba</option>
+<option value="3bd / 2ba">3bd / 2ba</option>
+</select>
+<select name="budget" required aria-label="Monthly budget" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Budget...</option>
+<option value="$750 - $1,000">$750-$1,000</option>
+<option value="$1,000 - $1,250">$1,000-$1,250</option>
+<option value="$1,250 - $1,500">$1,250-$1,500</option>
+<option value="$1,500 - $1,750">$1,500-$1,750</option>
+<option value="$1,750 - $2,000">$1,750-$2,000</option>
+<option value="$2,000 - $2,500">$2,000-$2,500</option>
+<option value="$2,500 - $3,000">$2,500-$3,000</option>
+<option value="$3,000 - $4,000">$3,000-$4,000</option>
+</select>
+</div>
+
+<!-- Houston area -->
+<div class="mb-3">
+<select name="houstonArea" id="sf-area" required aria-label="Preferred Houston area" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Which Houston area?</option>
+<option value="I'm really not sure (I would like to explore my options)">Not sure yet - explore options</option>
+<option value="Central (Downtown, Galleria/Uptown, Heights, Med Center, Midtown, Montrose, Museum Dist, River Oaks)">Central Houston</option>
+<option value="North (Champions, Conroe, Cypress, Humble, Spring, The Woodlands, Tomball)">North Houston</option>
+<option value="South (Braeswood, Missouri City, Pasadena, Pearland, Sugarland, South Loop, Southbelt)">South Houston</option>
+<option value="East  (Baytown, Deepr Park, Clear Lake, Friendswood, Seabrook)">East Houston</option>
+<option value="West (Westchase, Energy Corridor, Alief, Briar Forest, Memorial City, Katy)">West Houston</option>
+</select>
+</div>
+
+<!-- Central neighborhoods -->
+<div id="sf-hoods-central" class="hidden mb-3">
+<p class="text-[10px] text-gray-400 mb-1">Optional - pick up to 4:</p>
+<div class="grid grid-cols-2 gap-1">
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Downtown / EaDo" class="sf-cb rounded w-3.5 h-3.5"> Downtown / EaDo</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Midtown" class="sf-cb rounded w-3.5 h-3.5"> Midtown</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Montrose / Museum District" class="sf-cb rounded w-3.5 h-3.5"> Montrose</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Galleria / Uptown" class="sf-cb rounded w-3.5 h-3.5"> Galleria / Uptown</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Medical Center" class="sf-cb rounded w-3.5 h-3.5"> Medical Center</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Heights / Greater Heights" class="sf-cb rounded w-3.5 h-3.5"> Heights</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Washington Ave / Rice Military" class="sf-cb rounded w-3.5 h-3.5"> Washington Ave</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="River Oaks / Upper Kirby" class="sf-cb rounded w-3.5 h-3.5"> River Oaks</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="West U / Rice Village" class="sf-cb rounded w-3.5 h-3.5"> West U</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Unsure - Need Help Deciding" class="sf-cb rounded w-3.5 h-3.5"> Not sure</label>
+</div></div>
+
+<!-- North neighborhoods -->
+<div id="sf-hoods-north" class="hidden mb-3">
+<p class="text-[10px] text-gray-400 mb-1">Optional - pick up to 4:</p>
+<div class="grid grid-cols-2 gap-1">
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Woodlands / Shenandoah" class="sf-cb rounded w-3.5 h-3.5"> Woodlands</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Spring / Klein" class="sf-cb rounded w-3.5 h-3.5"> Spring / Klein</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Champions / FM 1960" class="sf-cb rounded w-3.5 h-3.5"> Champions</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Tomball" class="sf-cb rounded w-3.5 h-3.5"> Tomball</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Conroe / Willis" class="sf-cb rounded w-3.5 h-3.5"> Conroe / Willis</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Cypress" class="sf-cb rounded w-3.5 h-3.5"> Cypress</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Humble / Atascocita" class="sf-cb rounded w-3.5 h-3.5"> Humble / Atascocita</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Kingwood" class="sf-cb rounded w-3.5 h-3.5"> Kingwood</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="North Houston" class="sf-cb rounded w-3.5 h-3.5"> North Houston</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Not Sure - Need Help Deciding" class="sf-cb rounded w-3.5 h-3.5"> Not sure</label>
+</div></div>
+
+<!-- South neighborhoods -->
+<div id="sf-hoods-south" class="hidden mb-3">
+<p class="text-[10px] text-gray-400 mb-1">Optional - pick up to 4:</p>
+<div class="grid grid-cols-2 gap-1">
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Pearland" class="sf-cb rounded w-3.5 h-3.5"> Pearland</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Pasadena" class="sf-cb rounded w-3.5 h-3.5"> Pasadena</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Breaeswood / Southwest" class="sf-cb rounded w-3.5 h-3.5"> Braeswood / SW</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Missouri City" class="sf-cb rounded w-3.5 h-3.5"> Missouri City</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="South Loop / NRG" class="sf-cb rounded w-3.5 h-3.5"> South Loop / NRG</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Sagemont / Southbelt (I-45)" class="sf-cb rounded w-3.5 h-3.5"> Sagemont</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Sugar Land" class="sf-cb rounded w-3.5 h-3.5"> Sugar Land</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Manvel / Fresno" class="sf-cb rounded w-3.5 h-3.5"> Manvel / Fresno</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Angelton / Alvin" class="sf-cb rounded w-3.5 h-3.5"> Angleton / Alvin</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Not Sure Yet - Need Help Deciding" class="sf-cb rounded w-3.5 h-3.5"> Not sure</label>
+</div></div>
+
+<!-- East neighborhoods -->
+<div id="sf-hoods-east" class="hidden mb-3">
+<p class="text-[10px] text-gray-400 mb-1">Optional - pick up to 4:</p>
+<div class="grid grid-cols-2 gap-1">
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Baytown" class="sf-cb rounded w-3.5 h-3.5"> Baytown</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Deer Park / La Porte" class="sf-cb rounded w-3.5 h-3.5"> Deer Park</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Channelview / Jacinto City" class="sf-cb rounded w-3.5 h-3.5"> Channelview</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Northshore / Cloverleaf" class="sf-cb rounded w-3.5 h-3.5"> Northshore</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Clear Lake / NASA" class="sf-cb rounded w-3.5 h-3.5"> Clear Lake / NASA</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="League City" class="sf-cb rounded w-3.5 h-3.5"> League City</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Friendswood / Webster" class="sf-cb rounded w-3.5 h-3.5"> Friendswood</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Kemah / Seabrook" class="sf-cb rounded w-3.5 h-3.5"> Kemah / Seabrook</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Not Sure - Need Help" class="sf-cb rounded w-3.5 h-3.5"> Not sure</label>
+</div></div>
+
+<!-- West neighborhoods -->
+<div id="sf-hoods-west" class="hidden mb-3">
+<p class="text-[10px] text-gray-400 mb-1">Optional - pick up to 4:</p>
+<div class="grid grid-cols-2 gap-1">
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Westchase" class="sf-cb rounded w-3.5 h-3.5"> Westchase</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Energy Corridor" class="sf-cb rounded w-3.5 h-3.5"> Energy Corridor</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Alief" class="sf-cb rounded w-3.5 h-3.5"> Alief</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Briar Forest / Eldridge" class="sf-cb rounded w-3.5 h-3.5"> Briar Forest</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Memorial City" class="sf-cb rounded w-3.5 h-3.5"> Memorial City</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Richmond" class="sf-cb rounded w-3.5 h-3.5"> Richmond</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Katy" class="sf-cb rounded w-3.5 h-3.5"> Katy</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Addicks" class="sf-cb rounded w-3.5 h-3.5"> Addicks</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Fulshear" class="sf-cb rounded w-3.5 h-3.5"> Fulshear</label>
+<label class="flex items-center gap-1.5 text-sm"><input type="checkbox" name="neighborhoods[]" value="Not Sure - Need Help Deciding" class="sf-cb rounded w-3.5 h-3.5"> Not sure</label>
+</div></div>
+
+<!-- Rental issues (shows after area/neighborhoods selected) -->
+<div id="sf-section-2" class="hidden">
+<div class="flex items-center gap-2 mb-4 mt-2 pt-3 border-t border-gray-100">
+<span class="flex items-center justify-center w-6 h-6 rounded-full bg-action-orange text-white text-xs font-bold">2</span>
+<span class="text-sm font-bold text-navy-deep">Tell us what happened</span>
+<div class="flex-1 h-px bg-gray-200"></div>
+</div>
+</div>
+<div id="sf-rental-wrap" class="hidden mb-3">
+<select name="rentalIssues" id="sf-rental" required aria-label="Rental history situation" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Rental history?</option>
+<option value="No rental issues!">No rental issues</option>
+<option value="1st Time Renter">1st time renter</option>
+<option value="Broken Lease">Broken lease</option>
+<option value="Property Debt">Property debt</option>
+<option value="Eviction">Eviction</option>
+</select>
+</div>
+
+<!-- Broken lease sub-fields -->
+<div id="sf-bl-age" class="hidden mb-3">
+<select name="brokenLease" aria-label="How long ago was the broken lease" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">How long ago?</option>
+<option value="0 - 1 years ago">0-1 years ago</option>
+<option value="1 - 2 years ago">1-2 years ago</option>
+<option value="3 - 5 years ago">3-5 years ago</option>
+<option value="5+ years or longer">5+ years</option>
+</select>
+</div>
+<div id="sf-bl-debt" class="hidden mb-3">
+<select name="brokenLeaseDebt" aria-label="Broken lease balance owed" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Broken lease debt?</option>
+<option value="Zero balance - I don't owe anything!">$0 - no debt</option>
+<option value="$1 - $1,000">$1-$1,000</option>
+<option value="$1,000 - $2,500">$1,000-$2,500</option>
+<option value="$2,500 - $5,000">$2,500-$5,000</option>
+<option value="$5,001+">$5,001+</option>
+<option value="I am on a payment plan">On a payment plan</option>
+</select>
+</div>
+
+<!-- Eviction sub-fields -->
+<div id="sf-ev-age" class="hidden mb-3">
+<select name="eviction" aria-label="How long ago was the eviction" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">How long ago?</option>
+<option value="0 - 1 years ago">0-1 years ago</option>
+<option value="1 - 2 years ago">1-2 years ago</option>
+<option value="3 - 5 years ago">3-5 years ago</option>
+<option value="5+ years ago">5+ years</option>
+</select>
+</div>
+<div id="sf-ev-debt" class="hidden mb-3">
+<select name="evictionDebt" aria-label="Eviction balance owed" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Eviction debt?</option>
+<option value="Zero balance - I don't owe anything!">$0 - no debt</option>
+<option value="$1 - $1,000">$1-$1,000</option>
+<option value="$1,000 - $2,500">$1,000-$2,500</option>
+<option value="$2,500 - $5,000">$2,500-$5,000</option>
+<option value="$5,001+">$5,001+</option>
+<option value="I am on a payment plan">On a payment plan</option>
+</select>
+</div>
+
+<!-- Property debt sub-fields -->
+<div id="sf-pd-amt" class="hidden mb-3">
+<select name="propertyDebt" aria-label="Property debt amount" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Property debt amount?</option>
+<option value="Zero balance - I don't owe anything!">$0 - no debt</option>
+<option value="$1 - $1,000">$1-$1,000</option>
+<option value="$1,000 - $2,500">$1,000-$2,500</option>
+<option value="$2,500 - $5,000">$2,500-$5,000</option>
+<option value="$5,001+">$5,001+</option>
+<option value="I am on a payment plan">On a payment plan</option>
+</select>
+</div>
+
+<!-- Background issues -->
+<div id="sf-bg-wrap" class="hidden mb-3">
+<select name="backgroundIssues" id="sf-bg" required aria-label="Background situation" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Background history?</option>
+<option value="I'm clean as a whistle!">Clean - no issues</option>
+<option value="Felony">Felony</option>
+<option value="Misdemeanor">Misdemeanor</option>
+</select>
+</div>
+
+<!-- Felony sub -->
+<div id="sf-felony" class="hidden mb-3">
+<select name="felonyDetails" aria-label="Felony details" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Felony details?</option>
+<option value="0-7 years ago">0-7 years ago</option>
+<option value="7+ years old">7+ years ago</option>
+<option value="Deferred adjucation">Deferred adjudication</option>
+<option value="DWI/DUI">DWI/DUI</option>
+</select>
+</div>
+
+<!-- Misdemeanor sub -->
+<div id="sf-misdemeanor" class="hidden mb-3">
+<select name="misdemeanorDetails" aria-label="Misdemeanor details" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Misdemeanor details?</option>
+<option value="0 - 7 years ago">0-7 years ago</option>
+<option value="7+ years ago">7+ years ago</option>
+<option value="DUI/DWI">DUI/DWI</option>
+</select>
+</div>
+
+<!-- Credit -->
+<div id="sf-credit-wrap" class="hidden mb-3">
+<select name="creditScore" required aria-label="Credit score range" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-700 bg-gray-50 focus:border-action-orange outline-none">
+<option value="">Credit history?</option>
+<option value="Best (600 or above)">600+ (Best)</option>
+<option value="Better (550 or above)">550-599 (Better)</option>
+<option value="Good (550 or below)">Below 550 (Good)</option>
+<option value="I don't have credit">No credit</option>
+</select>
+</div>
+
+<!-- Top priorities + Income (show after credit) -->
+<div id="sf-final-fields" class="hidden">
+<div class="mb-3">
+<input type="text" name="topPriorities" placeholder="Top priorities (e.g. in-unit laundry, pool, near work)" aria-label="Top priorities for your apartment" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange outline-none">
+</div>
+<div class="mb-3">
+<input type="number" name="income" required placeholder="Monthly income (before taxes)" aria-label="Monthly gross income" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange outline-none">
+</div>
+</div>
+
+<!-- Contact fields (show after income > 1) -->
+<div id="sf-contact" class="hidden">
+<div class="flex items-center gap-2 mb-4 mt-2 pt-3 border-t border-gray-100">
+<span class="flex items-center justify-center w-6 h-6 rounded-full bg-action-orange text-white text-xs font-bold">3</span>
+<span class="text-sm font-bold text-navy-deep">Where should we send your list?</span>
+<div class="flex-1 h-px bg-gray-200"></div>
+</div>
+<div class="grid grid-cols-2 gap-2 mb-3">
+<input type="text" name="firstName" required placeholder="First name" aria-label="First name" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange outline-none" autocomplete="given-name">
+<input type="text" name="lastName" required placeholder="Last name" aria-label="Last name" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange outline-none" autocomplete="family-name">
+</div>
+<div class="mb-3">
+<input type="tel" name="phone" required placeholder="Phone number" aria-label="Phone number" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange outline-none" autocomplete="tel">
+</div>
+<div class="mb-3">
+<input type="email" name="email" required placeholder="Email address" aria-label="Email address" class="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 bg-gray-50 focus:border-action-orange outline-none" autocomplete="email">
+</div>
+<div class="mt-2"><p style="font-weight:700;color:#0a2849;font-size:13px;margin:0 0 3px">Consent:<span style="color:#dc2626" aria-hidden="true"> *</span></p><label for="consent-cb" style="display:flex;align-items:center;gap:6px;cursor:pointer;font-weight:700;font-size:13px;color:#0a2849;margin:0"><input type="checkbox" name="consent" id="consent-cb" required aria-describedby="consent-text" class="w-4 h-4 rounded border-gray-300 flex-shrink-0" style="flex-shrink:0"><input type="hidden" name="consentText" value="Houston Second Chance Team and its agents may contact me at the number provided about my apartment search and related services, including by automated call, text, or artificial or prerecorded voice. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. I have read and agree to the Terms of Use and Privacy Policy."><input type="hidden" name="consentTimestamp" value=""><span>I agree</span></label><p id="consent-text" style="font-size:11px;color:#4b5563;line-height:1.5;margin:4px 0 0">Houston Second Chance Team and its agents may contact me at the number provided about my apartment search and related services, including by automated call, text, or artificial or prerecorded voice. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. I have read and agree to the <a href="https://houstonapartmentreviews.com/terms/" style="color:#1d4ed8;text-decoration:underline;" rel="nofollow">Terms of Use</a> and <a href="https://houstonapartmentreviews.com/privacy/" style="color:#1d4ed8;text-decoration:underline;" rel="nofollow">Privacy Policy</a>.</p></div>
+<button type="submit" id="submit-btn" class="w-full bg-action-orange text-white font-bold py-4 rounded-lg text-base shadow-md hover:shadow-lg transition-shadow disabled:opacity-40 disabled:cursor-not-allowed mt-3" style="color:#fff">Send My Matches &#8594;</button><p id="form-status" role="status" aria-live="polite" class="text-center text-sm text-white mt-2 min-h-[1.25rem]"></p>
+</div>
+
+<p class="text-center text-[10px] text-gray-300 mt-3">&#128274; Free &#183; No obligation &#183; Lists sent ASAP</p>
+</form>
+    </div></div>
+    <p class="mt-3 text-[13px] text-on-surface-variant">
+      Free to you &mdash; communities pay locator fees, not renters.</p>
+  </div>
+</section>
+
+<section class="border-b border-outline bg-surface-container">
+  <div class="mx-auto max-w-4xl px-4 py-8">
+    <div class="statband text-center">
+      <div><div class="num">1,449</div><div class="lbl">Houston communities reviewed</div></div>
+      <div><div class="num">218</div><div class="lbl">listed after vetting</div></div>
+      <div><div class="num">$0</div><div class="lbl">cost to renters, ever</div></div>
+    </div>
+    <p class="mt-5 text-center text-[13px] text-on-surface-variant">This page is run by the locating team behind
+      <a class="font-semibold text-primary-600 hover:underline" href="https://houstonapartmentreviews.com/">HoustonApartmentReviews.com</a>
+      &mdash; reviews by licensed locators, not advertisers.</p>
+  </div>
+</section>
+
+<section class="border-b border-outline">
+  <div class="mx-auto max-w-3xl px-4 py-12">
+    <h2 class="serif text-2xl text-on-surface sm:text-3xl">What your list actually gets you</h2>
+    <ol class="mt-8 space-y-8"><li class="flex gap-4"><span class="ed-num">1.</span><div><h3 class="serif text-xl text-on-surface">A straight answer on the places you're eyeing</h3><p class="mt-1.5 text-sm leading-relaxed text-on-surface-variant">Been going back and forth on a community's reviews? Mention it in the form. We'll tell you what it's quoting this week, which specials are running, and what we made of its review history &mdash; the patterns, not the one-off rants.</p></div></li><li class="flex gap-4"><span class="ed-num">2.</span><div><h3 class="serif text-xl text-on-surface">Prices that match what the leasing office actually says</h3><p class="mt-1.5 text-sm leading-relaxed text-on-surface-variant">Houston listing sites drift out of date fast, and a quote from two weeks ago is a different lease by Friday. We confirm pricing and look-and-lease deals by phone before anything lands on your list.</p></div></li><li class="flex gap-4"><span class="ed-num">3.</span><div><h3 class="serif text-xl text-on-surface">Less gambling on application fees</h3><p class="mt-1.5 text-sm leading-relaxed text-on-surface-variant">Fees here run $50 to $85 and don't come back. We keep notes on how communities around town tend to screen &mdash; credit, rental history, income &mdash; and lean your list toward the realistic approvals.</p></div></li></ol>
+  </div>
+</section>
+<section class="border-b border-outline bg-surface-alt">
+  <div class="mx-auto max-w-3xl px-4 py-10">
+    <h2 class="serif text-xl text-on-surface">Your commute picks your apartment here.</h2>
+    <p class="mt-2 max-w-2xl text-sm leading-relaxed text-on-surface-variant">Anyone who's crawled the Katy Freeway at 5pm
+      knows a great apartment in the wrong spot is a bad apartment. Tell us where you work &mdash;
+      Med Center, Energy Corridor, Downtown, The Woodlands &mdash; and we'll build the list around
+      your drive, not just a ZIP code.</p>
+    <a href="#get-list" class="rose-btn mt-5 px-6 py-3 text-sm">Start my list &rarr;</a>
+  </div>
+</section>
+
+<section>
+  <div class="mx-auto max-w-4xl px-4 py-12">
+    <h2 class="serif text-2xl text-on-surface">Fair questions</h2>
+    <dl class="mt-6 grid gap-6 text-sm md:grid-cols-2"><div><dt class="font-medium text-on-surface">Is this really free?</dt><dd class="mt-1 text-on-surface-variant">Yes. Communities pay locator fees when you sign a lease, out of the same budget they spend on advertising. You never get a bill from us.</dd></div><div><dt class="font-medium text-on-surface">How is this different from the reviews on the site?</dt><dd class="mt-1 text-on-surface-variant">Reviews tell you what living somewhere is like after move-in. They can't tell you this week's quote, which specials are live, or how a property tends to screen applicants. That's what the list adds.</dd></div><div><dt class="font-medium text-on-surface">How fast will I hear back?</dt><dd class="mt-1 text-on-surface-variant">Often within a few hours, Monday through Saturday. If you're up against a deadline, say so in the form and we'll move quicker.</dd></div><div><dt class="font-medium text-on-surface">Why do you ask about credit and background?</dt><dd class="mt-1 text-on-surface-variant">Because it changes which communities make sense. The honest version of your situation gets you a list that holds up at application time, not one that just looks nice.</dd></div><div><dt class="font-medium text-on-surface">My situation is complicated. Can you still help?</dt><dd class="mt-1 text-on-surface-variant">Broken lease, eviction, rough credit &mdash; that's a big part of what we do. The form has room for all of it, and nobody here is judging.</dd></div><div><dt class="font-medium text-on-surface">What happens after I submit?</dt><dd class="mt-1 text-on-surface-variant">A locator on our team reads it &mdash; a person, not an auto-responder &mdash; and starts pulling your list together. You'll hear from us by phone or email.</dd></div></dl>
+    <div class="mt-10 text-center">
+      <a href="#get-list" class="rose-btn px-8 py-3.5 text-base">Get My Free Houston List &rarr;</a>
+      <p class="mt-2 text-[13px] text-on-surface-variant">About 2 minutes &middot; no obligation</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="mt-16 border-t border-outline bg-surface-container"> <div class="mx-auto max-w-6xl px-4 pt-14 pb-8"> <div class="grid gap-12 md:grid-cols-12"> <!-- Brand --> <div class="md:col-span-4"> <img src="/images/logo.png" alt="Houston Apartment Reviews Directory" class="mb-3 h-10 w-auto" loading="lazy"> <p class="max-w-sm text-sm text-on-surface-variant">Independent, sentiment-scored apartments directory for Houston, TX.</p> <p class="mt-4 text-xs text-on-surface-variant">
+Published by <a class="hover:text-primary-600" href="https://houstonapartmentreviews.com" rel="publisher">HoustonApartmentReviews.com</a>  &middot; edited by Houston Apartment Locators Group </p>  </div> <!-- Link columns --> <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:col-span-8"> <div class="flex flex-col gap-3"> <span class="font-heading font-semibold text-on-surface">Browse</span> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/browse/">Search &amp; map</a>  </div> <div class="flex flex-col gap-3"> <span class="font-heading font-semibold text-on-surface">Rankings &amp; guides</span>  <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/guide/">Tips</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/compare/">Compare</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/tools/">Free Tools</a> </div> <div class="flex flex-col gap-3"> <span class="font-heading font-semibold text-on-surface">About</span> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="#get-list">Find Your Houston Apartment</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/about/">About</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/how-we-score/">How We Score</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/listing-policy/">Corrections &amp; removals</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/privacy/">Privacy</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/terms/">Terms</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/advertise/">Advertise</a> <a class="text-on-surface-variant hover:text-primary-600 transition-colors" href="https://houstonapartmentreviews.com/contact/">Contact</a> </div> </div> </div> <!-- Bottom bar: data disclosure (E1) + copyright --> <div class="mt-12 flex flex-col gap-3 border-t border-outline-variant pt-6 text-xs text-on-surface-variant sm:flex-row sm:items-center sm:justify-between"> <p class="max-w-3xl"> Our scores and insights come from public Google reviews. We don&#39;t republish review text, and each listing links directly to Google. Last updated 2026-07-22.
+</p> <p class="shrink-0">&copy; 2026 HoustonApartmentReviews.com</p> </div> </div> </footer>
+<script>(function(){
+document.addEventListener('submit',function(e){
+var f=e.target;
+if(!f||!f.action||f.action.indexOf('n8n.dentals.targetdial.co')===-1)return;
+if(typeof window.hsValidate==='function'&&!window.hsValidate(f)){
+e.preventDefault();e.stopImmediatePropagation();
+f.removeAttribute('data-gc-sent');}
+},true);})();</script>
+<script>
+(function(){
+function hsClearErr(el){try{el.style.outline='';el.style.outlineOffset='';el.removeAttribute('aria-invalid');}catch(e){}
+var w=el.closest('.hs-errwrap');if(w){var m=w.querySelector('.hs-errmsg');if(m){if(m.remove)m.remove();else if(m.parentNode)m.parentNode.removeChild(m);}w.classList.remove('hs-errwrap');}}
+function hsMarkErr(el,msg){
+el.style.outline='2px solid #dc2626';el.style.outlineOffset='2px';el.setAttribute('aria-invalid','true');
+var host=el.type==='checkbox'?(el.closest('label')||el.parentNode):el.parentNode;
+if(host&&!host.querySelector('.hs-errmsg')){
+host.classList.add('hs-errwrap');
+var s=document.createElement('p');s.className='hs-errmsg';s.setAttribute('role','alert');
+s.style.cssText='color:#dc2626;font-size:12px;font-weight:600;margin-top:4px';
+s.textContent=msg;host.appendChild(s);}
+if(!el.dataset.hsBound){el.dataset.hsBound='1';
+['input','change'].forEach(function(ev){el.addEventListener(ev,function(){hsClearErr(el);});});}}
+function hsVisible(el){return !!(el.offsetWidth||el.offsetHeight||el.getClientRects().length);}
+window.hsValidate=hsValidate;function hsValidate(f){
+var bad=null,n=0;
+f.querySelectorAll('[required]').forEach(function(el){
+if(!hsVisible(el)&&el.type!=='checkbox')return;            /* not on this user's path yet */
+var empty=(el.type==='checkbox')?!el.checked:!String(el.value||'').trim();
+if(empty){n++;if(!bad)bad=el;
+hsMarkErr(el,el.type==='checkbox'?'Please read the consent and check the ‘I agree’ box.':'Please complete this field.');}
+else{hsClearErr(el);}});
+if(bad){
+var st=document.getElementById('form-status');
+if(st){st.textContent=n===1?'Please complete the highlighted field.':'Please complete the '+n+' highlighted fields.';st.style.color='#dc2626';}
+try{bad.scrollIntoView({behavior:'smooth',block:'center'});}catch(e){}
+try{bad.focus({preventScroll:true});}catch(e){try{bad.focus();}catch(e2){}}
+return false;}
+return true;}
+document.querySelector('[name="sourceUrl"]').value=window.location.href;
+var f=document.getElementById('step-form');
+var area=f.querySelector('[name="houstonArea"]');
+var rental=f.querySelector('[name="rentalIssues"]');
+var bg=f.querySelector('[name="backgroundIssues"]');
+var credit=f.querySelector('[name="creditScore"]');
+var income=f.querySelector('[name="income"]');
+var cb=document.getElementById('consent-cb');
+var btn=document.getElementById('submit-btn');
+
+// Checkbox limit (max 4 per group)
+document.querySelectorAll('.sf-cb').forEach(function(c){c.addEventListener('change',function(){var g=this.closest('[id^="sf-hoods"]');if(g&&g.querySelectorAll('input:checked').length>4)this.checked=false})});
+
+// Consent enables submit
+btn.disabled=false; cb.addEventListener('change',function(){if(this.checked)hsClearErr(this);});
+
+// Intercept form submit: POST to webhook, redirect to thank you
+f.addEventListener('submit',function(e){
+e.preventDefault();
+if(!hsValidate(f))return;
+var st=document.getElementById('form-status');
+var orig=btn.textContent;
+btn.disabled=true;
+btn.textContent='Sending...';
+if(st)st.textContent='Sending your request.';
+var fd=new FormData(f);
+fetch(f.action,{method:'POST',body:fd}).then(function(r){
+if(!r.ok)throw new Error('submit failed');
+window.location.href='/thank-you/';
+}).catch(function(){
+btn.disabled=false;
+btn.textContent=orig;
+if(st)st.textContent='We could not send that just now. Please try again, or call us at 832-699-7368.';
+});
+});
+
+// Area -> show neighborhoods
+var hoodMap={central:'sf-hoods-central',north:'sf-hoods-north',south:'sf-hoods-south',east:'sf-hoods-east',west:'sf-hoods-west'};
+area.addEventListener('change',function(){
+  var v=this.value;
+  Object.values(hoodMap).forEach(function(id){document.getElementById(id).classList.add('hidden')});
+  // Uncheck all when switching
+  document.querySelectorAll('.sf-cb').forEach(function(c){c.checked=false});
+  if(v.indexOf('Central')===0)document.getElementById('sf-hoods-central').classList.remove('hidden');
+  else if(v.indexOf('North')===0)document.getElementById('sf-hoods-north').classList.remove('hidden');
+  else if(v.indexOf('South')===0)document.getElementById('sf-hoods-south').classList.remove('hidden');
+  else if(v.indexOf('East')===0)document.getElementById('sf-hoods-east').classList.remove('hidden');
+  else if(v.indexOf('West')===0)document.getElementById('sf-hoods-west').classList.remove('hidden');
+  // Show rental/bg/credit after area is selected
+  document.getElementById('sf-rental-wrap').classList.remove('hidden');
+  document.getElementById('sf-bg-wrap').classList.remove('hidden');
+  document.getElementById('sf-credit-wrap').classList.remove('hidden');
+});
+
+// Rental issues -> sub-fields
+rental.addEventListener('change',function(){
+  var v=this.value;
+  ['sf-bl-age','sf-bl-debt','sf-ev-age','sf-ev-debt','sf-pd-amt'].forEach(function(id){document.getElementById(id).classList.add('hidden')});
+  if(v==='Broken Lease')document.getElementById('sf-bl-age').classList.remove('hidden');
+  else if(v==='Eviction')document.getElementById('sf-ev-age').classList.remove('hidden');
+  else if(v==='Property Debt')document.getElementById('sf-pd-amt').classList.remove('hidden');
+});
+
+// Broken lease age -> debt
+f.querySelector('[name="brokenLease"]').addEventListener('change',function(){
+  if(this.value)document.getElementById('sf-bl-debt').classList.remove('hidden');
+  else document.getElementById('sf-bl-debt').classList.add('hidden');
+});
+
+// Eviction age -> debt
+f.querySelector('[name="eviction"]').addEventListener('change',function(){
+  if(this.value)document.getElementById('sf-ev-debt').classList.remove('hidden');
+  else document.getElementById('sf-ev-debt').classList.add('hidden');
+});
+
+// Background -> sub-fields
+bg.addEventListener('change',function(){
+  document.getElementById('sf-felony').classList.add('hidden');
+  document.getElementById('sf-misdemeanor').classList.add('hidden');
+  if(this.value==='Felony')document.getElementById('sf-felony').classList.remove('hidden');
+  else if(this.value==='Misdemeanor')document.getElementById('sf-misdemeanor').classList.remove('hidden');
+});
+
+// Credit -> show final fields (priorities + income)
+credit.addEventListener('change',function(){
+  if(this.value){document.getElementById('sf-final-fields').classList.remove('hidden')}
+  else{document.getElementById('sf-final-fields').classList.add('hidden')}
+});
+
+// Income -> show contact fields
+income.addEventListener('input',function(){
+  if(parseInt(this.value)>0)document.getElementById('sf-contact').classList.remove('hidden');
+  else document.getElementById('sf-contact').classList.add('hidden');
+});
+})();
+</script>
+<script>
+(function () {
+  var FS_KEY  = "6a705a8a1214d1d7bffd6e5eac5fd886";
+  var SUBJECT  = "Guest Card - Houston Apartment Reviews Referred By: the Houston Apartment Locating Team - Apartment Locators with Spirit Real Estate";
+  var HOOK    = "n8n.dentals.targetdial.co";
+  if (!FS_KEY) return;
+
+  document.addEventListener("submit", function (e) {
+    try {
+      var f = e.target;
+      if (!f || !f.action || f.action.indexOf(HOOK) === -1) return;
+      if (f.getAttribute("data-gc-sent")) return;
+      f.setAttribute("data-gc-sent", "1");
+
+      var d = new FormData(f);
+      d.append("_subject", SUBJECT);
+      d.append("_captcha", "false");
+      if (!d.get("sourceUrl")) d.append("sourceUrl", location.href);
+
+      fetch("https://formsubmit.co/" + FS_KEY, {
+        method: "POST", body: new URLSearchParams(d), mode: "no-cors", credentials: "omit"
+      })["catch"](function () {});
+    } catch (err) { /* never interfere with the site's own submit */ }
+  }, true);
+})();
+</script>
+<script>(function(){
+function iso(){return new Date().toISOString();}
+function bind(){
+document.querySelectorAll('input[type="checkbox"][name="consent"],#hf_consent').forEach(function(cb){
+if(cb.dataset.tsBound)return; cb.dataset.tsBound='1';
+var f=cb.form||document; 
+function field(){return (f.querySelector&&f.querySelector('[name="consentTimestamp"]'))||document.getElementById('hf_consent_ts');}
+cb.addEventListener('change',function(){var el=field(); if(!el)return; el.value=cb.checked?iso():'';});
+});}
+document.addEventListener('astro:page-load',bind);
+document.readyState==='loading'?document.addEventListener('DOMContentLoaded',bind):bind();
+})();</script>
+</body>
+</html>
